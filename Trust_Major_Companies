@@ -91,12 +91,11 @@ geom_bar(mapping=aes(x=B_COUNTRY, y=i_trust_MajorCompanies), stat = "identity", 
 coord_flip() + 
 
 labs(
-
 	title="Índice de confianza en las grandes empresas",
 
 	subtitle="2018",
 
-	caption="Repositorio:github/ .Fuente:World Value Survey"
+	caption="Repositorio:https://github.com/VicenteSotelo/Trust. Fuente:World Value Survey"
 ) +
 
 xlab("") + 
